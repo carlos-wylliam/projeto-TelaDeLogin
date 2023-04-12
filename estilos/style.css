@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#94CFCD;
+}
+main{
+    background-color: white;
+    width: 480px;
+    height: 340px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 10px;
+}
+main>p{
+    text-align: justify;
+}
+h1,p{
+    text-align: center;
+    
+    padding: 10px;
+}
+form{
+    text-align: center;
+}
+form>input{
+    display: block;
+}
+.dados__cadastrais{
+    width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #94CFCD;
+}
+#envio__deDados1{
+    width: 460px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #53AAA7;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+}
+#envio__deDados1:hover{
+    background-color: #2D6462;
+    transition-delay: 0.1s;
+}
+#envio__deDados2{
+    width: 460px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #53AAA7;
+    color: #2D6462;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#envio__deDados2:hover{
+    background-color: #6CD3CF;
+}
+#user{
+    font-size: 32px;
+    float: left;
+ 
+    background-color: #5F2C82;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#password{
+    font-size: 32px;
+    float: left;
+
+    background-color: #5F2C82;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
