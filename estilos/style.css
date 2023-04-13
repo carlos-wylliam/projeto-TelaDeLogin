@@ -1,86 +1,119 @@
 @charset "UTF-8";
 *{
-    margin: 0px;
-    padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+   
 }
-body{
-    background-color:#94CFCD;
+.imagem{
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    background-image: url(../imagens/metal.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 50px;
+   
+  
+
 }
 main{
-    background-color: white;
-    width: 480px;
-    height: 340px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin: 10px;
-}
-main>p{
-    text-align: justify;
-}
-h1,p{
-    text-align: center;
-    
-    padding: 10px;
+    position: relative;
 }
 form{
+    background-color: white;
+    width: 230px;
+
+    
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+form > h1{
     text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+}
+form > p{
+    text-align: center;
+    text-align: justify;
+    font-size: 0.9em;
+  
 }
 form>input{
-    display: block;
+     
+     padding: 10px;
+     background-color: #94CFCD;
+     border-style: none;
+     border-radius: 5px;
+     margin: auto;
+     margin-top: 10px;
 }
-.dados__cadastrais{
-    width: 400px;
+span > input{
+    /* display: block; */
     padding: 10px;
-    margin-top: 5px;
-    margin-left: 30px;
-    border-radius: 10px;
-    border-style: none;
     background-color: #94CFCD;
-}
-#envio__deDados1{
-    width: 460px;
-    margin: auto;
-    margin-top: 5px;
-    padding: 10px;
-    background-color: #53AAA7;
     border-style: none;
     border-radius: 5px;
-    color: white;
-    font-size: 1em;
-}
-#envio__deDados1:hover{
-    background-color: #2D6462;
-    transition-delay: 0.1s;
-}
-#envio__deDados2{
-    width: 460px;
     margin: auto;
-    margin-top: 5px;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #53AAA7;
-    color: #2D6462;
-    border-radius: 5px;
-    font-size: 1em;
+    width: 168px;
+    margin-bottom: 4px;
 }
-#envio__deDados2:hover{
+#submit{
+    width: 225px;
+    background-color: #53AAA7;
+    color: white;
+}
+#submit:hover{
+    background-color: #2D6462;
+
+}
+a{
+    text-decoration: none;
+    color: #2D6462;
+   
+}
+
+a>p{
+    font-size: 0.9em;
+    text-align: center;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 4px;
+    border: 1px solid #53AAA7;
+    padding: 10px;
+  
+    border-radius: 5px;
+}
+a>p:hover{
     background-color: #6CD3CF;
 }
-#user{
-    font-size: 32px;
-    float: left;
- 
+body{
     background-color: #5F2C82;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
 }
-#password{
-    font-size: 32px;
-    float: left;
-
-    background-color: #5F2C82;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+.material-icons{
+    background-color:#5F2C82;
+    color: white; 
+   border-radius: 5px;
    
+   
+}
+#email{
+    display: block;
+    /* padding: 10px; */
+    font-size: 30px;
+    
+}
+#senha{
+    display: block;
+    /* padding: 10px; */
+    font-size: 30px;
+    margin-top: 5px;
 }
